@@ -13,30 +13,26 @@ The dataset used in this project is from the 2018 Data Science Bowl, consisting 
 Overview:
 U-Net++ is an enhanced version of the U-Net model for semantic segmentation. It introduces skip connections and deep supervision to improve segmentation accuracy.
 
+
 Key Features:
 Encoder-Decoder Structure: Hierarchical feature extraction through an encoder-decoder architecture.
-
 Skip Connections: Connections between encoder and decoder blocks for leveraging low and high-level features.
-
 Deep Supervision: Intermediate predictions at various decoder stages to address information loss.
+
 
 Building Process:
 Input Layer: Takes (96, 96, 3) images as input.
-
 Encoder Blocks: Convolutional blocks and max-pooling form the encoder.
-
 Skip Connections: Concatenation of encoder and decoder blocks for feature fusion.
-
 Decoder Blocks: Upsampled feature maps refined by skip connections.
-
 Deep Supervision Output: Intermediate predictions for improved training.
-
 Output Layer: Final segmentation map obtained from the last decoder block.
+
 
 Benefits:
 Multi-Level Feature Fusion: Improved feature capturing at different scales.
-
 Information Retention: Mitigation of information loss during downsampling.
+
 
 Usage:
 Build and train the model using the UNetPlusPlus class. Compile and summarize the model with the CompileAndSummarizeModel method.
