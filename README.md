@@ -37,3 +37,8 @@ Information Retention: Mitigation of information loss during downsampling.
 Usage:
 Build and train the model using the UNetPlusPlus class. Compile and summarize the model with the CompileAndSummarizeModel method.
 
+
+# Results
+![output](https://github.com/YugantGotmare/Nuclei-Segmentation-using-U-NET-/assets/101650315/f857d95d-685a-4422-9ca1-cb3131abe5b3)
+
+
