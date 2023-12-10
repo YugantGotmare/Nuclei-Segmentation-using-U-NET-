@@ -8,6 +8,7 @@ Identifying cell nuclei is a crucial step in understanding biological processes 
 
 # Dataset
 The dataset used in this project is from the 2018 Data Science Bowl, consisting of microscopic images for training (stage1_train) and testing (stage1_test). The images contain information about the location and characteristics of cell nuclei.
+https://www.kaggle.com/c/data-science-bowl-2018/overview
 
 # Model Architecture: U-Net++
 Overview:
